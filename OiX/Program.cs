@@ -18,8 +18,6 @@ namespace OiX
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-
         }
         public static int[,] plansza = new int[3, 3];
 
@@ -38,7 +36,7 @@ namespace OiX
                 }
             }
             czyGracz1 = true;
-            
+            CzyœæTablicê();
         }
         public static void CzyœæTablicê()
         {
@@ -73,8 +71,6 @@ namespace OiX
                 ) return 2;
             if (stan == 0) return 3;
             return 0;
-        }
-
-        
+        }  
     }
 }
